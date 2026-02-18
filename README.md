@@ -115,9 +115,9 @@ View traces at: [https://smith.langchain.com/](https://smith.langchain.com/)
 
 LangSmith provides full visibility into your LangGraph workflow execution, allowing you to inspect traces for each node, monitor latency, and debug issues with detailed input/output logs.
 
-![LangSmith Trace](images/langsmith_trace.png)
+![LangSmith Trace](https://raw.githubusercontent.com/siddharthraja-star/release_doc_automation_jira_tickets/main/images/langsmith_trace.png)
 
-![LangSmith Monitoring](images/langgsmith_monitoring.png)
+![LangSmith Monitoring](https://raw.githubusercontent.com/siddharthraja-star/release_doc_automation_jira_tickets/main/images/langgsmith_monitoring.png)
 
 ## Output
 
