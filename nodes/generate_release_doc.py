@@ -131,7 +131,7 @@ Return ONLY the markdown-formatted change log starting with "* Change log". No a
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
-            max_tokens=2000
+            max_tokens=16000  # Increased to handle large sprints with many tickets
         )
 
         release_doc = response.choices[0].message.content

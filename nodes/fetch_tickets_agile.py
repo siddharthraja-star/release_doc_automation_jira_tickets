@@ -46,7 +46,7 @@ def fetch_tickets_agile(state: JiraState) -> JiraState:
 
         # Query parameters - Add JQL filter for Story type
         params = {
-            "maxResults": 50,
+            "maxResults": 1000,  # Fetch up to 1000 tickets (JIRA API max)
             "fields": "summary,description,status,assignee,created,updated,priority,issuetype,project,sprint",
             "jql": "issuetype = 'Story'"
         }
